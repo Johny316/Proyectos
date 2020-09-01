@@ -1,0 +1,16 @@
+//Constantes se usan para valores que no van a cambiar
+let number = 10
+let name = 'Johny'
+let nombre = `Johny tiene ${number} años`
+
+let div = `
+    <div class="container">
+    ${nombre}
+    </div>
+`
+document.body.innerHTML = div
+
+let numer = [1,2,3,4,5,6,7]
+let data = {
+    apellido: "Merida", edad: 21
+}
